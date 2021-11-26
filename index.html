@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Home | Universe</title>
+        <link href = "https: //fonts.googleapis.com/css2? family = Montserrat: wght @ 300; 400; 700 & family = Abrir + Sans: wght @ 300; 400; 700 & display = swap "rel =" stylesheet ">
+        <link href="css/reset.css" rel="stylesheet">
+        <link href="css/cabecalho.css" rel="stylesheet">
+        <link href="css/chamada.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link href="css/sobre.css" rel="stylesheet">
+        <link href="css/cursos.css" rel="stylesheet">
+        <link href="css/contato.css" rel="stylesheet">
+        <link href="css/institucional.css" rel="stylesheet">
+        <link href="css/rodape.css" rel="stylesheet">
+        <link href="img/favicon.ico" rel="shortcut icon">
+    </head>
+
+    <body>
+        <header class="cabecalho container">
+            <img src="img/logo-universe.svg" alt="Logo da Universe" class="cabecalho__logo">
+                <nav class="cabecalho__navegacao">
+                    <ul>
+                        <li class="cabecalho__link"><a href="#home">Home</a></li>
+                        <li class="cabecalho__link"><a href="#sobre">Sobre</a></li>
+                        <li class="cabecalho__link"><a href="#cursos">Cursos</a></li>
+                        <li class="cabecalho__link"><a href="#contato">Contato</a></li>
+                        <li class="cabecalho__link"><a href="#institucional">Institucional</a></li>
+                    </ul>
+                </nav>
+        </header>
+        <main>
+            <section class="chamada container" id="home">
+                <h1 class="chamada__titulo">Conheça a Universe</h1>
+                <p class="chamada__texto">Nós somos uma universidade focada em ciências exatas.</p>
+                <p class="chamada__texto-2">Temos cursos relacionados a computação, engenharia e calculos.</p>
+                <a href="#cursos" class="chamada__botao">Conheça nossos cursos</a>
+            </section>
+
+            <section class="sobre container" id="sobre">
+                <div class="sobre__conteudo">
+                    <h2 class="sobre__titulo">Sobre</h2>
+                    <p class="sobre__texto">Fundada em 2021, a Universe é uma faculdade com tecnologias atuais e que foca na qualidade do ensino para os nossos alunos.</p>
+                    <p class="sobre__texto">Em menos de 1 mês de existência, a Universe já conta com cerca de 100 alunos matriculados em nossos cursos.</p>
+                    <p class="sobre__texto">Entre em contato conosco e conheça mais sobre a nossa universidade! Nós temos programas de bolsa, tecnologia de ponta e muito mais...</p>
+                </div>
+                <img src="img/exemplo-uni.jpg" class="sobre__imagem">
+            </section>
+
+           <section class="cursos container" id="cursos">
+                <h2 class="cursos__titulo">Cursos</h2>
+                <ul> 
+                    <li class="cursos__cartao">                        
+                        <h3 class="cursos__titulo-eng">Engenharias</h3>
+                        <p class="cursos__texto-eng">Engenharia Mecatrônica</p>
+                        <p class="cursos__texto-eng">Engenharia da Computação</p>
+                        <p class="cursos__texto-eng3">Engenharia Civil</p>
+                        <a href="html/engenharia.html" class="cursos__botao">Saiba mais sobre</a>
+                    </li>
+                </ul>
+                <ul> 
+                    <li class="cursos__cartao">                        
+                        <h3 class="cursos__titulo-ciencias">Ciências exatas</h3>
+                        <p class="cursos__texto-ciencias">Ciência da Computação</p>
+                        <p class="cursos__texto-ciencias">Sistemas de Informação</p>
+                        <p class="cursos__texto-ciencias3">Redes de Computadores</p>
+                        <a href="html/ciencias.html" class="cursos__botao-ciencias">Saiba mais sobre</a>
+                    </li>
+                </ul>
+                <ul> 
+                    <li class="cursos__cartao">                        
+                        <h3 class="cursos__titulo-calculos">Calculos</h3>
+                        <p class="cursos__texto-calculos">Matemática</p>
+                        <p class="cursos__texto-calculos">Física</p>
+                        <p class="cursos__texto-calculos3">Química</p>
+                        <a href="html/calculos.html" class="cursos__botao-calculos">Saiba mais sobre</a>
+                    </li>
+                </ul>
+
+           </section> 
+
+           <section class="contato container" id="contato">
+                <h2 class="contato__titulo">Contato</h2>
+                <form>
+                    <label for="nome" class="contato__label">Nome completo</label>
+                    <input type="text" id="nome" required class="contato__input" placeholder="Rikelvem Silva">
+                    <label for="telefone" class="contato__label">Telefone</label>
+                    <input type="number" id="telefone" required class="contato__input" placeholder="(XX) XXXXX-XXXX">
+                    <label for="email" class="contato__label">E-mail</label>
+                    <input type="email" id="email" required class="contato__input" placeholder="teste@email.com">
+                    <label for="mensagem" class="contato__label">Mensagem</label>
+                    <textarea class="contato__mensagem" id="mensagem" required></textarea>
+                    <input type="submit" class="contato__submit" value="Entre em contato">
+                </form>
+           </section>
+
+           <section class="institucional container">
+               <h2 class="institucional__titulo" id="institucional">Institucional</h2>
+               <p class="institucional__sub">Um pouco mais sobre a Universe!</p>
+               <address class="institucional__endereco">
+                Rua Wilson Fernando S Carvalho, 200</br>
+                Cidade Tiradentes, São Paulo
+                <article class="institucional__contato">
+                    <p><a href="tel:+5511979980809" class="institucional__contato-telefone">(11) 97998-0809</a> ou <a href="mailto:teste@teste.com" class="institucional__contato-email">teste@teste.com</a></p>
+                </article>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.726695001319!2d-46.394753884326825!3d-23.578257368103163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce657d7d9b2b59%3A0x3d3e50bbe8ffb4f8!2sR.%20Wilson%20Fernando%20S%C3%A3o%20de%20Carvalho%2C%20200%20-%20Conj.%20Hab.%20Sitio%20Conceicao%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008473-000!5e0!3m2!1spt-BR!2sbr!4v1637712748456!5m2!1spt-BR!2sbr" class="institucional__mapa" alt="Mapa da localização da Universe" allowfullscreen="" loading="lazy"></iframe>
+           </section>
+        </main>
+        <footer class="rodape container">
+            <img src="img/logo-universe.svg" class="rodape__logo">
+            <nav class="rodape__navegacao">
+                <ul>
+                    <li class="rodape__link"><a href="#home">Home</a></li>
+                    <li class="rodape__link"><a href="#sobre">Sobre</a></li>
+                    <li class="rodape__link"><a href="#cursos">Cursos</a></li>
+                    <li class="rodape__link"><a href="#contato">Contato</a></li>
+                    <li class="rodape__link"><a href="#institucional">Institucional</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+:root {
+    --branco: #f2f2f2;
+    --cinza: #575654;
+    --preto: #080808;
+
+    --sky: #47F3FF;
+    --lima: #6DFA57;
+    --tomato: #ff6347;
+    --vermelho-logo: #7A0E0C;
+
+    --bg-chamada: #00161C;
+    --bg-sobre: #F6EDDE;
+
+    --montserrat-sans: 'Montserrat', sans-serif;
+    --open-sans: 'Open Sans', sans-serif;
+}
+
+.container {
+    padding-right: 6%;
+    padding-left: 6%;
+}

@@ -1,0 +1,27 @@
+--cores
+
+branco: #f2f2f2
+
+vermelho-logo: #7A0E0C
+
+background: #010A3D
+
+
+
+
+.sobre {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .sobre__texto {
+        width: 100%;
+        max-width: 768px;
+    }
+
+    .sobre__imagem {
+        display: none;
+    }

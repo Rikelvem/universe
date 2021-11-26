@@ -1,0 +1,71 @@
+.chamada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: var(--branco);
+    text-align: center;
+    font-family: var(--open-sans);
+
+    background-color: var(--bg-chamada);
+
+    padding-top: 11rem;
+    padding-bottom: 2.5rem;
+}
+
+.chamada-eng {
+    background-color: #993B2B;
+}
+
+.chamada-ciencias {
+    background-color: #439936;
+}
+
+.chamada-calculos {
+    background-color: #206C73;
+}
+
+.chamada__titulo, .chamada__titulo-eng {
+    font-weight: 600;
+    font-size: 2rem;
+    text-transform: uppercase;
+
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+
+    font-family: var(--montserrat-sans);
+}
+
+.chamada__texto, .chamada__texto-2 {
+    font-size: 1.2rem;
+
+    font-weight: 400;
+    width: 100%;
+    line-height: 1.5rem;
+
+    margin-bottom: 15px;
+    max-width: 600px
+}
+
+.chamada__texto-2 {
+    margin: 0 auto 2.5rem;    
+}
+
+
+.chamada__botao {
+    border: 1px solid var(--branco);
+    border-radius: 5px;
+
+    padding: 16px 32px;
+}
+
+@media screen and (min-width: 1024px) {
+    .chamada {
+        padding-top: 8.25rem;
+    }
+
+    .chamada__titulo {
+        font-size: 3.25rem;
+        margin-bottom: 2rem;
+    }
+}

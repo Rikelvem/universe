@@ -1,0 +1,52 @@
+.duvida {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: var(--cinza);
+
+    background: #f2f2f2;
+
+    font-family: var(--open-sans);
+}
+
+.duvida__conteudo {
+    margin-top: 1.8rem;
+    margin-bottom: 8rem;
+
+    text-align: center;
+}
+
+.duvida__titulo {
+    text-transform: uppercase;
+    font-family: var(--montserrat-sans);
+
+    font-weight: 700;
+
+    font-size: 40px;
+
+    padding-bottom: 1rem;
+
+    text-align: center;
+}
+
+.duvida__sub-titulo {
+    margin-bottom: 3rem;
+
+    font-size: 1.2rem;
+}
+
+.duvida__botao {
+    border: 2px solid var(--cinza);
+    border-radius: 4px;
+
+    padding: 10px 20px;
+
+    color: var(--cinza);
+}
+
+@media screen and (max-width: 445px) {
+    .duvida__titulo {
+        font-size: 2.1rem;
+    }
+}

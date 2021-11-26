@@ -1,0 +1,41 @@
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: absolute;
+
+    box-sizing: border-box;
+
+    background: #333333;
+
+    width: 100%;
+
+    color: var(--branco);
+
+    font-family: var(--open-sans);
+
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+}
+
+.rodape__logo {
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.rodape__navegacao {
+    text-align: center;
+}
+
+.rodape__link {
+    font-size: 1.1rem;
+
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    display: inline-block ;
+
+    margin-left: .7rem;
+    margin-right: .7rem;
+}

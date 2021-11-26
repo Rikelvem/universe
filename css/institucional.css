@@ -1,0 +1,53 @@
+.institucional {
+    background-color: #DEDEDE;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: var(--cinza);
+
+    font-family: var(--open-sans);
+
+    padding-bottom: 5rem;
+}
+
+.institucional__titulo {
+    font-family: var(--montserrat-sans);
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    padding-top: 3rem;
+    padding-bottom: 0.7rem;
+}
+
+.institucional__sub {
+    padding-bottom: 4rem;
+}
+
+.institucional__endereco {
+    font-weight: 600;
+    font-size: 1.1rem;
+
+    line-height: 20px;
+    text-align: center;
+}
+
+.institucional__contato {
+    font-weight: 600;
+
+    padding-top: 2rem;
+}
+
+.institucional__contato-email {
+    color: #0084FF;
+    text-decoration: underline;
+}
+
+.institucional__mapa {
+    margin-top: 3rem;
+    
+    width: 100vw;
+    max-width: 600px;
+}

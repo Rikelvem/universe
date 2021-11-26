@@ -1,0 +1,131 @@
+.cursos {
+    background-image: linear-gradient(#F6EDDE, #F2f2f2);
+    color: var(--cinza);
+
+    font-family: var(--open-sans);
+
+    text-align: center;
+
+    padding-bottom: 5rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.cursos__titulo {
+    font-family: var(--montserrat-sans);
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.cursos__cartao {
+    border: 0px solid #57565480 ;
+    border-radius: 25px;
+
+    background-color: #2E2E2E;
+
+    padding-right: 2.8rem;
+    padding-left: 2.8rem;
+
+    padding-bottom: 2rem;
+
+    display: inline-block;
+
+    margin-bottom: 50px;
+
+    width: 100%;
+    max-width: 241px;
+}
+
+.cursos__titulo-eng {
+    text-transform: uppercase;
+    font-family: var(--montserrat-sans);
+
+    color: var(--tomato);
+    
+    font-size: 30px;
+    font-weight: 600;
+
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.cursos__texto-eng, .cursos__texto-eng3, .cursos__texto-ciencias, .cursos__texto-ciencias3, .cursos__texto-calculos, .cursos__texto-calculos3 {
+    line-height: 30px;
+    font-size: 18px;
+
+    text-align: left;
+
+    color: var(--branco);
+}
+
+.cursos__texto-eng3, .cursos__texto-ciencias3, .cursos__texto-calculos3 {
+    padding-bottom: 2rem;
+}
+
+.cursos__botao {
+    font-weight: 700;
+    color: var(--tomato);
+    font-size: 20px;
+
+    padding: 5px 10px 5px 10px;
+
+    border-radius: 10px;
+    border: 2px solid var(--tomato)
+}
+
+.cursos__titulo-ciencias {
+    text-transform: uppercase;
+    font-family: var(--montserrat-sans);
+
+    color: var(--lima);
+
+    font-size: 30px;
+    font-weight: 600;
+
+    padding-top: 25px;
+    padding-bottom: 20px;
+
+    max-width: 100%;
+}
+
+.cursos__botao-ciencias {
+    font-weight: 700;
+    color: var(--lima);
+    font-size: 20px;
+
+    padding: 5px 10px 5px 10px;
+
+    border-radius: 10px;
+    border: 2px solid var(--lima)
+}
+
+.cursos__titulo-calculos {
+    text-transform: uppercase;
+    font-family: var(--montserrat-sans);
+
+    color: var(--sky);
+
+    font-size: 30px;
+    font-weight: 600;
+
+    padding-top: 25px;
+    padding-bottom: 20px;
+
+    max-width: 100%;
+}
+
+.cursos__botao-calculos {
+    font-weight: 700;
+    color: var(--sky);
+    font-size: 20px;
+
+    padding: 5px 10px 5px 10px;
+
+    border-radius: 10px;
+    border: 2px solid var(--sky)
+}
