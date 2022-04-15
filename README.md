@@ -10,7 +10,7 @@ Universidade - Universe é um projeto realizado com o intuito de reforçar e apr
 O site consiste em apresentar a universidade (fictícia), os cursos que ela oferece e também informações de contato e localização para tirar alguma dúvida ou algo do tipo. 
 
 ## Layout mobile
-![Mobile 1](https://github.com/Rikelvem/universe/blob/main/assets/mobile-home.JPG) ![Mobile 2](https://github.com/Rikelvem/universe/blob/main/assets/mobile-engenharias.JPG) ![Mobile 3](https://github.com/Rikelvem/universe/blob/main/assets/mobile-engenharias-2.JPG)
+![Mobile 1](https://github.com/Rikelvem/universe/blob/main/assets/mobile-home.JPG) ![Mobile 2](https://github.com/Rikelvem/universe/blob/main/assets/mobile-engenharias-2.JPG)
 
 ## Layout web
 ![Web 1](https://github.com/Rikelvem/universe/blob/main/assets/desktop-home.JPG)
